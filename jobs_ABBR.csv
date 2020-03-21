@@ -1,0 +1,96 @@
+crawl_timestamp,url,job_title,category,company_name,city,state,country,inferred_city,inferred_state,inferred_country,post_date,job_description,job_type,salary_offered,job_board,geo,cursor,contact_email,contact_phone_number,uniq_id,html_job_description
+2019-02-06 05:26:22 +0000,https://www.indeed.com/viewjob?jk=fd83355c2b23438c,Enterprise Data Scientist I,Accounting/Finance,Farmers Insurance Group,Woodland Hills,CA,Usa,Woodland hills,California,Usa,2019-02-06,"Read what people are saying about working here. 
+
+We are Farmers!
+
+Join a team of diverse professionals at Farmers to acquire skills on the job and apply your learned knowledge to future roles at Farmers. Farmers Insurance also offers extensive training opportunities through the award winning University of Farmers named by Training magazine amongst top 10 corporate training units in the world. Start your career at Farmers today!
+
+Job Summary
+
+The Enterprise Data Scientist I will be a valuable part of the Data Science team who provide statistical analysis, modeling, and vis ualization services for all lines of business and all shared service functions at Farmers Insurance Group. The Data Scientist 1 will work on end to end solutions as part of a team. They will design innovative analytic models and will be responsible for pulling and cleaning datasets, evaluating models, and presenting results to internal teams.
+
+Essential Job Functions
+
+Extract data from a variety of sources (databases, web, text files) and in a variety of formats (structured, unstructured, JSON, Parquet, etc.) and prepare the data for analysis Describe data using qualitative and quantitative aggregation/summarization and build tools (static reports, interactive dashboards, web applications) that allow clients to easily view and understand important patterns and trends in the data Provide quantitative comparisons of data points using advanced statistical analysis including data reduction techniques (PCA, cluste ring), resampling (permutation tests, Monte Carlo testing) as well as traditional statistical hypothesis testing Construct and validate predictive models using a variety of techniques
+
+Physical Actions
+
+Physical Environment
+
+Education Requirements
+
+Master's degree in scientific or quantitative field and documented academic excellence. PhD in scientific field preferred
+
+Experience Requirements
+
+At least year in a data analytics role (business intelligence analyst, data analyst, etc.)
+
+Special Skill Requirement
+
+Proficiency in at least one of the following is absolutely required: R, Python Basic proficiency in at least one of the following: PowerBI, Tableau, QlikView, D3.js Basic proficiency in SQL Able to implement and utilize advanced statistical and machine learning techniques (GLMs, PCA, cluster analyses, ARIMA, ETS, decision trees, SVM, neural networks, ensemble methods, etc.) Basic familiarity with project management tools (Asana, Basecamp, LiquidPlanner)
+
+Farmers is an equal opportunity employer, committed to the strength of a diverse workforce.
+
+]]>
+
+Schedule: Full-time
+
+Job Posting: 02/05/2019
+ The companies comprising the Farmers Insurance Group of Companies® currently make up one of the country's largest insurers of vehicles, h...",Undefined,,indeed,usa,1549432819114777,,,3b6c6acfcba6135a31c83bd7ea493b18,
+2019-02-06 05:33:41 +0000,https://www.dice.com/jobs/detail/Data-Scientist-Luxoft-USA-Inc-Middletown-NJ-07748/newageny/802263,Data Scientist,,Luxoft USA Inc,Middletown,NJ,Usa,Middletown,New jersey,Usa,2019-02-05,"We have an immediate opening for a Sharp Data Scientist with a strong Mathematical/Statistical background to work on various initiatives in a Huge data environment. Will be looking at various formats of Data dealing with Billing Fraud Patterns using various software and modeling techniques. The candidate should have a minimum of 3 years of solid work experience in a professional organization/corporation using Python, SQL, Python libraries, Machine Learning Algorithms ( i.e. Decision Tree, Random Forest, Logistic Regression, etc.) should have strong Python skills. Additional experience with R Cloud would be a plus. Will be working with structured and unstructured data formats so any experience with Hive, and other Big Data technologies would be a plus. Should have strong communication skills and the ability to explain data findings to both Technical and Non- Technical audiences. We are NOT considering Recent College Grads- MUST have a minimum of 2-3 post Graduate experience working in a professional organization .",Undefined,,dice,usa,1549432819122106,,,741727428839ae7ada852eebef29b0fe,
+2019-02-06 05:33:35 +0000,https://www.dice.com/jobs/detail/Data-Scientist-Cincinnati-Bell-Technology-Solutions-New-York-NY-10001/10119424/464780,Data Scientist,,Cincinnati Bell Technology Solutions,New York,NY,Usa,New york,New york,Usa,2019-02-05,"Candidates should have the following background, skills and characteristics:  Experience developing analytic applications using Java/Scala and related technologies in the Spark/Hadoop ecosystem Seasoned experience with Big Data programming frameworks, such as Apache Spark and Kafka Expert-level proficiency in Scala and Java is must Experience in machine learning techniques, large scale optimization and building/supporting production ML systems is a big plus Bachelor’s degree in a quantitative discipline required (masters or PhD preferred)    ",Full Time,,dice,usa,1549432819236156,,,cdc9ef9a1de327ccdc19cc0d07dbbb37,
+2019-02-06 05:33:42 +0000,https://www.indeed.com/viewjob?jk=841edd86ead205f2,Data Scientist-Aladdin Wealth Tech-Associate (Modeler),Accounting/Finance,BlackRock,New York,NY 10055 (Midtown area),Usa,New york,New york,Usa,2019-02-06,"Read what people are saying about working here. 
+
+About BlackRock
+
+BlackRock helps investors build better financial futures. As a fiduciary to investors and a leading provider of financial technology, our clients turn to us for the solutions they need when planning for their most important goals. As of December 31, 2018, the firm managed approximately $5.98 trillion in assets on behalf of investors worldwide. For additional information on BlackRock, please visit www.blackrock.com | Twitter: @blackrock | Blog: www.blackrockblog.com | LinkedIn: www.linkedin.com/company/blackrock.
+
+Job Description:
+
+Who we are:
+
+ At BlackRock, we are passionate about technology. We leverage technology to develop actionable data insights that increase the Retail and iShares sales force productivity, efficiency, and revenues.
+
+The role requires working closely with the Sales Enablement and Digital Distribution teams to ensure that insights are delivered with the highest business impact. You will also partner with internal technology teams on infrastructure, tools, processes, standards, and development, as well as other analytics teams across the organization.
+
+The successful candidate will have a passion for technology, comfort working across a range of technology capabilities, including databases, software, and infrastructure, and a love of solving complex problems.
+
+Responsibilities:
+
+Sales Insights: Use data-driven insights to forecast, analyze and provide recommendations that identify cross-sell/up-sell opportunities while delivering improvements to sales force productivity, effectiveness, and strategy
+
+Model Development: Use cutting-edge tools and machine learning techniques to improve customer segmentation, develop propensity models, recommendation engines, and other analytical products to enable sales and distribution improvements
+
+Model Deployment: Work with internal technology teams on the implementation of models and insights into products and services
+
+Partnering: Collaborate with other data scientists across the firm on best practices, code review, internal tools and process improvements
+
+You should have:
+
+Bachelors degree required, Masters degree preferred, in a quantitative discipline (computer science, mathematics, statistics, economics, physics, engineering or related discipline)
+
+Asset management / finance work experience
+
+Intellectual curiosity and a passion for data and emerging technology is a must
+
+Highly quantitative, with a keen eye for teasing out insights from volumes of data
+
+Ability to present insights to internal stakeholders
+
+Strong team player
+
+Technology-savvy and ability to work in multiple systems and languages
+
+Knowledge of model and algorithm development (mathematical and statistical knowledge)
+
+Proficiency in SQL and one of Python/R for programming, data analysis, and modelling
+
+Experience with Hadoop stack (HIVE, Pig, Hadoop streaming) and/or Spark a plus
+
+Experience of developing solutions such as databases, API’s to both source and provide data, and automation a plus
+
+BlackRock is proud to be an Equal Opportunity and Affirmative Action Employer. We evaluate qualified applicants without regard to race, color, national origin, religion, sex, sexual orientation, gender identity, disability, protected veteran status, and other statuses protected by law.
+
+BlackRock will consider for employment qualified applicants with arrest or conviction records in a manner consistent with the requirements of the law, including any applicable fair chance law.
+
+ BlackRock's business is investing on behalf of our clients, from large institutions to parents and grandparents, doctors and teachers who...",Undefined,,indeed,usa,1549432819259473,,,1c8541cd2c2c924f9391c7d3f526f64e,
