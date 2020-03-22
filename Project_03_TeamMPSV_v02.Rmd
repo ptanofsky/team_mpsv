@@ -381,12 +381,12 @@ bigram_counts %>% print(n = 20)
 
 2. Filter the bigrams
 
-Include bigrams that occurred at least 250 times in order to filter out visual noise.
+Include bigrams that occurred at least 1250 times in order to filter out visual noise.
 
 ```{r filter-bigrams, fig.width=10,fig.height=11}
 # filter for only relatively common combinations
 bigram_graph <- bigram_counts %>%
-  filter(n > 250) %>%
+  filter(n > 1250) %>%
   graph_from_data_frame()
 
 bigram_graph
@@ -442,7 +442,7 @@ jobs_words %>%
 
 jobs_words %>%
   count(word, sort = TRUE) %>%
-  filter(n > 500) %>%
+  filter(n > 2500) %>%
   mutate(word = reorder(word, n)) %>%
   ggplot(aes(word, n)) +
   geom_col() +
