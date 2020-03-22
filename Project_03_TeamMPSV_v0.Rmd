@@ -15,7 +15,7 @@ Attempt to determine the top skills for a data scientist based on job listings f
 jobs_df <- read.csv(file = 'data_scientist_united_states_job_postings_jobspikr.csv', stringsAsFactors = FALSE)
 
 # For testing purposes, just the first 100 rows only
-jobs_df <- jobs_df[1:100,]
+jobs_df <- jobs_df[1:200,]
 
 # Output all the column names to confirm
 names(jobs_df)
@@ -206,6 +206,15 @@ Combining the data frame of the TF_IDF from the job descriptions with the catego
 
 By the categories, this will identify the most important words from the job descriptions.
 
+c("Accounting/Finance", "biotech", 
+                        "Computer/Internet", "Arts/Entertainment/Publishing",
+                        "military", "business and financial operations",
+                        "Engineering/Architecture", "Manufacturing/Mechanical",
+                        "life physical and social science", "Banking/Loans",
+                        "agriculture and fishing ", "Education/Training",
+                        "science"))
+
+
 ```{r fig.width=10,fig.height=11}
 #8.3.2
 # Try it with the category, not sure if how much value that will be, but want to try it
@@ -213,17 +222,11 @@ desc_tf_idf <- full_join(desc_tf_idf, jobs_cat, by = "id")
 
 desc_tf_idf %>% 
   filter(!near(tf, 1)) %>%
-  filter(category %in% c("Accounting/Finance", "biotech", 
-                        "Computer/Internet", "Arts/Entertainment/Publishing",
-                        "military", "business and financial operations",
-                        "Engineering/Architecture", "Manufacturing/Mechanical",
-                        "life physical and social science", "Banking/Loans",
-                        "agriculture and fishing ", "Education/Training",
-                        "science")) %>%
+  filter(category %in% jobs_cat$category) %>%
   arrange(desc(tf_idf)) %>%
   group_by(category) %>%
   distinct(word, category, .keep_all = TRUE) %>%
-  top_n(15, tf_idf) %>% 
+  top_n(10, tf_idf) %>% 
   ungroup() %>%
   mutate(word = factor(word, levels = rev(unique(word)))) %>%
   ggplot(aes(word, tf_idf, fill = category)) +
@@ -606,7 +609,7 @@ bigram_counts <- bigrams_filtered %>%
   count(word1, word2, sort = TRUE)
 
 # This result is valuable
-bigram_counts %>% print(n = 100)
+bigram_counts %>% print(n = 500)
 
 ```
 
